@@ -1,3 +1,125 @@
-*{
-    margin: 0%;
+@font-face {
+    font-family:"Exan";
+    src: url("Exan-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #AA4424;
+}
+
+nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+	align-items: center;
+	padding: 1.38vw;
+	height: 6.94vw;
+    margin-top: 10px;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+
+ul{
+	display: inline-block;
+	list-style-type: none;
+    padding-left: 60vw;
+}
+
+li {
+	display: inline-block;
+	margin-right: 4vw;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+    Font-family:"Exan";
+	font-size: 1.38vw;
+	letter-spacing: 1px
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/nicolas-lobos-NR_tXTuyTak-unsplash\ copy.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: left;
+    font-size: 10vw;
+    font-family:"Exan";
+    color: white;
+    position: relative;
+}
+.hero-text{
+    margin-right: 440px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+}
+/* .hero-overlay{
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/nicolas-lobos-NR_tXTuyTak-unsplash.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 24;
+
+} */
+
+button{
+    height: 75px;
+    width: 200px;
+    font-size: 18px;
+    color: black;
+    background: white;
+    opacity: 50%;
+    border-radius: 40px;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* margin-top: 12px; */
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+    font-family:"Exan";
+
+   
+}
+
+button:hover{
+	background: none;
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 4vw;
+    font-family:"Exan";
+    color: white;
+    position: relative;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6vw;
+}
+
+.text-box{
+    margin-left: 10vw;
+    margin-right: 10vw;
+
 }
