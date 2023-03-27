@@ -5,42 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
-
-    <title>Document</title>
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <title>Mission Mars</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Support</a></li>
-            <li><a href="">Connect</a></li>
-        </ul>
-    </nav>
+    
+    <header class="header">
+            <ul>
+                <li><a href="#section-a">About</a></li>
+                <li><a href="#section-b">Support</a></li>
+                <li><a href="#section-c">Connect</a></li>
+            </ul>
+    </header>
 
     <div class="container">
         <div class="hero">
            <div class="hero-text">
-                <h1>A New Destination</h1>
+                <h1>A New</h1>
+                <span class="auto-type"></span>
                 <div class="hero-btn">
-                    <button>Learn More</button>
+                    <!-- <button>Learn More</button> -->
+                    <a href="#section-b"><h4>Learn More</h4></a>
                 </div>
            </div>
         </div>
     </div>
 
     <div class="container-info">
-        <div class="text-box">
-            <h2>Plannet Mars</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <div id="section-a">
+            <div class="text-box reveal">
+                <h2 class="reveal">Planet Mars</h2>
+                <p class="reveal">The search for another Earth is important from a practical standpoint. With the population of our planet continuing to grow, we may eventually need to find new places to live. Finding habitable planets beyond our solar system could provide a potential solution to this problem. Moreover, the discovery of another Earth-like planet could also have profound implications for our understanding of the universe and our place within it. It would be a remarkable discovery and could help answer some of the most fundamental questions in science. Overall, the search for another Earth is important both for practical reasons and for expanding our knowledge of the universe and our place within it.</p>
+            </div>
+            <div class="image-card">
+                <div class="image-one revealimgone">
+                    <img src="Assets/1.png" alt="" class="cardone">
+                        <div class="cardtext">
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetursit amet, consecteturamet, consectetur</p>
+                        </div>
+                </div>
+                <div class="image-two revealimgtwo">
+                    <img src="Assets/2.png" alt=""class="cardtwo">
+                    <div class="cardtext">
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetursit amet, consecteturamet, consectetur</p>
+                    </div>
+                </div>
+                <div class="image-three revealimgthree">
+                    <img src="Assets/3.png" alt="" class="cardthree">
+                    <div class="cardtext">
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetursit amet, consectetur amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="three-cards">
-            <div class="card-one"></div>
-            <div class="card-two"></div>
-            <div class="card-three"></div>
+        <div class="text-box" id="section-b" >
+            <h2 class="reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <p class="reveal">Mars represents a significant frontier for scientific exploration, human expansion, and resource development in space, and it has the potential to play an important role in our future exploration and understanding of the universe.Mars represents a significant frontier for scientific exploration, human expansion, and resource development in space, and it has the potential to play an important role in our future exploration and understanding of the universe.Mars represents a significant frontier for scientific exploration, human expansion, and resource development in space, and it has the potential to play an important role in our future exploration and understanding of the universe.Mars represents a significant frontier for scientific exploration, human expansion, and resource development in space, and it has the potential to play an important role in our future exploration and understanding of the universe.Mars represents a significant frontier for scientific exploration, human expansion, and resource development in space, and it has the potential to play an important role in our future exploration and understanding of the universe.</p>
+            
+            <div class="b-btn">
+                <button>Donate</button>
+            </div>
         </div>
+        
+
+        <div class="end">
+            <div class="extra" id="section-c">
+                <div class="question-title">
+                    <h2 class="reveal">Contact Form</h2>
+                </div>
+        
+                <div class="contact-form">
+                
+                    <div class="form-top reveal">
+                        <div class="form-group small">
+                            <label for="firstName"><p>First Name</p></label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                
+                        <div class="form-group small email-form">
+                            <label for="email"><p>Email</p></label>
+                            <input type="email" placeholder="hello@missionmars.com" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group reveal">
+                        <label for="massage"><p>Message</p></label>
+                        <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                    </div>
+    
+                    <div class="connnect-submit-button">
+                        <button type="submit">Submit</button>
+                    </div>
+            
+                </div>
+        
+            </div>
+    
+            <div id="section-d">
+                <footer>
+                    <div class="footer">
+                        <div class="container-wrap-two">
+                            <div class="row">
+                                <div class="footer-col-one">
+                                    <li><a href="#section-a">About</a></li>
+                                    <li><a href="#section-b">Support</a></li>
+                                    <li><a href="#section-b">Donate</a></li>
+                                    <li><a href="#section-c">Connect</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <hr>
+                    <p class="copyright"> © 2023  MissionMars — Site By Maya, Nahiyan, and Liba</p>
+        
+                </footer>
+            </div>
+        </div>
+
     </div>
+    
 
 
 </body>
